@@ -4,6 +4,7 @@ import Footer from './components/Footer';
 import Routes from './Routes';
 import './style.css';
 import { useLocation } from 'react-router-dom';
+// import 'bootstrap/dist/css/bootstrap.min.css';
 
 const App = () => {
   const location = useLocation().pathname;

@@ -1,4 +1,4 @@
-const path = require('path');
+// const path = require('path');
 
 module.exports = {
   entry: ['./client/index.js'],
@@ -19,7 +19,7 @@ module.exports = {
       },
       {
         test: /\.css$/i,
-        include: path.resolve(__dirname, 'client'),
+        // include: path.resolve(__dirname, 'client'),
         use: ['style-loader', 'css-loader', 'postcss-loader'],
       },
       {
